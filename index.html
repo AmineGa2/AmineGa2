@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>ANGLE WEAR DZ - Gestion Stock</title>
+
+<link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+
+<header>
+<h1>ANGLE WEAR DZ</h1>
+<p>Gestion de Stock - Boutique</p>
+</header>
+
+<div class="container">
+
+<h2>Ajouter Produit</h2>
+
+<input id="name" placeholder="Nom produit">
+<input id="size" placeholder="Taille">
+<input id="color" placeholder="Couleur">
+<input id="price" placeholder="Prix">
+<input id="quantity" placeholder="Quantité">
+
+<button onclick="addProduct()">Ajouter</button>
+
+<h2>Stock</h2>
+
+<table>
+
+<thead>
+<tr>
+<th>Produit</th>
+<th>Taille</th>
+<th>Couleur</th>
+<th>Prix</th>
+<th>Stock</th>
+<th>Action</th>
+</tr>
+</thead>
+
+<tbody id="table"></tbody>
+
+</table>
+
+</div>
+
+<footer>
+<p>© 2026 Angle Wear DZ</p>
+<p>Instagram : https://www.instagram.com/angle_weardz/</p>
+</footer>
+
+<script src="scripts.js"></script>
+
+</body>
+</html>
